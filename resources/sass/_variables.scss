@@ -1,0 +1,108 @@
+// Body
+$body-bg: #f8fafc;
+$bg-color:#2e1933;
+$bg-footer:#16223d;
+
+$lilla: #a0a4cf;
+$giallo: #ffcc59;
+$azzurro: #304d94;
+$testo_grigio: #606060;
+$testo_chiaro: #ffffff;
+
+
+// Typography
+// $font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$lilla: #a0a4cf;
+
+.is-white {
+  color:#fff;
+}
+
+.check-table {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.width-container {
+  width: 80%;
+  margin:auto;
+}
+
+.verify-mail {
+  text-align: center;
+  margin:40px;
+  height: calc( 100vh - 200px );
+}
+
+.not-found {
+  height: 100vh;
+  h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50% , -50%);
+  }
+}
+// 
+// @font-face {
+//     font-family: "FedraSansStdBook";
+//     src: url('/fonts/Fedra-Sans-Std-Book_17248.ttf') format('ttf');
+//     // font-weight: bold;
+// }
+//
+// @font-face {
+//     font-family: "FedraSansStdNormal";
+//     src: url('/fonts/Fedra-Sans-Std-Normal_17254.ttf') format('ttf');
+//     // font-weight: bold;
+// }
+//
+// @font-face {
+//     font-family: "FedraSansStdBold";
+//     src: url('/fonts/FedraSansStdBold.ttf') format('ttf');
+//     // font-weight: bold;
+// }
+// @font-face {
+//     font-family: "HarryPlain";
+//     src: url('/fonts/HarryPlan.otf') format('otf');
+//     // font-weight: bold;
+// }
+//
+// @font-face {
+//     font-family: "HarryThin";
+//     src: url('/fonts/HarryThin.otf') format('otf');
+//     // font-weight: bold;
+// }
+//
+// @font-face {
+//     font-family: "Lato-Bold";
+//     src: url('/fonts/Lato-Bold.ttf') format('ttf');
+//     // font-weight: bold;
+// }
+// @font-face {
+//     font-family: Lato-Regular;
+//     src: url('public/fonts/Lato-Regular.ttf') format('ttf');
+//     // font-weight: bold;
+// }
+
+$lightblue: #227dc7;
+$textlogincolor: #a29fa3;
+
+//webpart & videopilss page colors
+
+$webpartblue:#34ade1;
+$videopillsblue:#5ab3c2;
+$text-color-violet:#2e1933;

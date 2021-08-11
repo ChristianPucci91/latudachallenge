@@ -1,0 +1,384 @@
+// s {
+//   --input-padding-x: .75rem;
+//   --input-padding-y: .75rem;
+// }
+
+// html,
+// body {
+//   height: 100%;
+// }
+
+.auth-container {
+  display: flex;
+  background: $lilla;
+}
+
+// .auth-section {
+//   background: rgb(46,25,51);
+//   background: linear-gradient(45deg, rgba(46,25,51,1) 0%, rgba(90,179,194,1) 100%);
+//   width:100%;
+//   position:relative;
+// }
+#login_info {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+#login_info2 {
+  display: none;
+}
+.img-header-mobile {
+  width: 20%;
+  margin:60px auto 20px auto;
+  img {
+    width: 100%;
+  }
+}
+
+.img-background {
+  // position: absolute;
+  // left:50%;
+  // top:50%;
+  // transform: translate(-50% , -50% );
+  img {
+    width: 100%;
+  }
+}
+.login-box {
+  width: 25%;
+  width: 50%;
+    position: relative;
+}
+section.login {
+  height: 100vh;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  flex-direction: column;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: flex-start;
+  // padding-top: 40px;
+  // padding-bottom: 40px;
+  // background-color: $bg-color;
+    --input-padding-x: .75rem;
+    --input-padding-y: .75rem;
+
+}
+.bottom-login-form button {
+  padding: 5px 30px;
+  background:#3e5ea3;
+  color:#fff;
+  font-weight:bold;
+}
+// .text-login-color {
+//   color:$textlogincolor;
+// }
+
+.login-label {
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    width: 13%;
+}
+
+.form-signin {
+  width: 55%;
+  padding: 12% 5%;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  z-index: 9999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+
+// .form-label-group > input,
+// .form-label-group > label {
+//   padding: var(--input-padding-y) var(--input-padding-x);
+// }
+//
+// .form-label-group > label {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   display: block;
+//   width: 100%;
+//   margin-bottom: 0; /* Override default `<label>` margin */
+//   line-height: 1.5;
+//   color: #495057;
+//   border: 1px solid transparent;
+//   border-radius: .25rem;
+//   transition: all .1s ease-in-out;
+//   // color: #3490dc;
+// }
+//
+.form-label-group input::-webkit-input-placeholder {
+  color: #a29fa3;
+  font-weight: bold;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: #a29fa3;
+  font-weight: bold;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: #a29fa3;
+  font-weight: bold;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: #a29fa3;
+  font-weight: bold;
+}
+
+.form-label-group input::placeholder {
+  color: #a29fa3;
+  font-weight: bold;
+}
+//
+// .form-label-group input:not(:placeholder-shown) {
+//   padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+//   padding-bottom: calc(var(--input-padding-y) / 3);
+// }
+//
+// .form-label-group input:not(:placeholder-shown) ~ label {
+//   padding-top: calc(var(--input-padding-y) / 3);
+//   padding-bottom: calc(var(--input-padding-y) / 3);
+//   font-size: 12px;
+//   // color: #777;
+//   color:#a29fa3;
+//
+// }
+
+
+
+// @media screen and (max-width:1024px) {
+//   .auth-section {
+//     display: none;
+//   }
+//   section.login {
+//     overflow: scroll;
+//   }
+//   .bottom-login-form {
+//     text-align: center;
+//     button {
+//       width: 100%;
+//     }
+//     a {
+//       margin: 10px;
+//     }
+//   }
+//   .img-header-mobile {
+//     display: block;
+//     width: 100%;
+//     img {
+//       width: 100%;
+//     }
+//   }
+//   .title-mobile {
+//     font-size: 30px;
+//     color:#fff;
+//     font-weight:bold;
+//   }
+//   .login-label {
+//     width: 15%;
+//     margin: auto;
+//   }
+//
+// }
+//
+// @media screen and (min-width:1025px) {
+//   .img-header-mobile {
+//     display: none;
+//   }
+//   .title-mobile {
+//     h1 {
+//       // font-size: 40px;
+//       text-align: left;
+//       // color:#fff;
+//       font-weight:bold;
+//     }
+//   }
+// }
+
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+// @media only screen
+//   and (min-width: 1024px)
+//   and (max-height: 1366px)
+//   and (-webkit-min-device-pixel-ratio: 1.5) {
+//     .login-box {
+//       width: 60%;
+//     }
+// }
+
+.login-logo-mobile {
+  display: none;
+}
+
+/* Landscape Ipad PRO*/
+
+@media only screen and (min-device-width: 1366px)
+and (max-device-height: 1024px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape)  {
+ .img-header-mobile {
+   margin:150px auto 20px auto;
+ }
+ .login-box {
+   width: 70%;
+ }
+}
+
+/* Portrait Ipad PRO*/
+@media only screen and (min-device-width: 1024px)
+and (max-device-height: 1366px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait)  {
+ .img-header-mobile {
+   margin:250px auto 20px auto;
+   width: 40%;
+   img {
+     width: 100%;
+   }
+ }
+ .login-box {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   width: 90%;
+ }
+}
+
+/* Portrait Ipad / Tablet */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .img-header-mobile {
+      margin:150px auto 20px auto;
+      width: 40%;
+      img {
+        width: 100%;
+      }
+    }
+    .login-box {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 90%;
+    }
+}
+
+/* Landscape Ipad / Tablet */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .img-header-mobile {
+      margin:150px auto 20px auto;
+    }
+    .login-box {
+      width: 70%;
+    }
+}
+
+/* Portrait Mobile */
+@media only screen
+  and (min-device-width: 200px)
+  and (max-device-width: 736px)
+  // and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+    #login_info  {
+      display: none;
+    }
+    #login_info2 {
+      display: block;
+    }
+    .login-btn {
+      width: 100%;
+    }
+    .img-header-mobile {
+      margin-top: 30px;
+      width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+    .form-signin {
+      width: 80%;
+      height: 53%;
+      border-radius: 10px;
+      top: 62%;
+    }
+    .login-logo-mobile {
+      display: block;
+    }
+    .login-logo {
+      display: none;
+    }
+    .login-box {
+      position: inherit;
+      // position: absolute;
+      // left: 50%;
+      // top: 50%;
+      // transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      .img-background {
+        height: 100%;
+        // padding-top:30px;
+        img {
+          height: 100%;
+          width: 80%;
+          margin:0 auto;
+        }
+      }
+    }
+    .bottom-login-form {
+      text-align: center;
+      a {
+        margin:10px 0;
+      }
+    }
+}
+
+/* Landscape Mobile*/
+@media only screen
+  and (min-device-width: 200px)
+  and (max-device-width: 736px)
+  // and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .img-header-mobile {
+      margin:150px auto 20px auto;
+    }
+    .login-box {
+      width: 70%;
+    }
+    .login-logo-mobile {
+      display: block;
+    }
+    .login-logo {
+      display: none;
+    }
+}

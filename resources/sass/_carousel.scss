@@ -1,0 +1,77 @@
+
+.container-carousel {
+  display: flex;
+  // margin: 0 auto;
+  // width: 70%;
+  height: auto;
+}
+.slider-wrapper {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+.slider-wrapper .images {
+  height: auto;
+  text-align: center;
+}
+.slider-wrapper .images div {
+  display: none;
+  height: auto;
+  width: 100%;
+  position: relative;
+  img {
+    height: auto;
+    width: 100%;
+  }
+  span {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+  }
+}
+.slider-wrapper .images div.active {
+  display: inline-block;
+
+}
+
+.carousel-text {
+  color: #fff;
+  // font-family: "Lato-Regular";
+  .carousel-btn {
+    background: #fff;
+    color:  $azzurro;
+    text-decoration: none;
+    padding: 5px 20px;
+  }
+}
+// .prev, .next {
+//   position: absolute;
+//   color: #565a5c;
+//   top: 50%;
+//   left: 0;
+//   transform: translateY(-50%);
+//   font-size: 40px;
+//   cursor: pointer;
+// }
+// .next {
+//   left: auto;
+//   right: 0;
+// }
+.nav {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  // padding: 20px;
+  border-radius: 999px;
+  // background: rgba(0,0,0,.7);
+  color: grey;
+}
+.nav > i {
+  margin: 0 10px;
+}
+.nav > i.active {
+  color: white;
+}
