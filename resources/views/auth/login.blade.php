@@ -5,7 +5,7 @@
 
     <section class="login" style="width:100%;">
       <div class="img-header-mobile">
-        <img src="{{asset('storage/img/logo-bianco.png')}}" alt="">
+        <img src="{{asset('storage/img/Logo-bianco.png')}}" alt="">
       </div>
       <div class="login-box">
 
