@@ -13,7 +13,7 @@
      </div>
      <div class="nav-center">
        <div class="img-logo">
-        <img src="{{asset('storage/img/logo-nero.png')}}" alt="">
+        <img src="{{asset('storage/img/Logo-nero.png')}}" alt="">
       </div>
      </div>
      <div class="nav-right">
